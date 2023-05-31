@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqz3LBxB6gJLD0W0hxhX4JiWDHIvWvCR4xEQ&usqp=CAU"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <title>calculadora</title>
+</head>
+
+<body>
+    <div id="container">
+        <form action="" name="calculadora">
+            <input type="textfield" autocomplete="off" value="" name="ans" readonly>
+<div>
+            <input type="button" value="7" class="gray" onclick="document.calculadora.ans.value+='7'">
+            <input type="button" value="8" class="gray" onclick="document.calculadora.ans.value+='8'">
+            <input type="button" value="9" class="gray" onclick="document.calculadora.ans.value+='9'">
+            <input type="button" value="+" class="orange" onclick="document.calculadora.ans.value+='+'">
+        </div><div>
+
+            <input type="button" value="4" class="gray" onclick="document.calculadora.ans.value+='4'">
+            <input type="button" value="5" class="gray" onclick="document.calculadora.ans.value+='5'">
+            <input type="button" value="6" class="gray" onclick="document.calculadora.ans.value+='6'">
+            <input type="button" value="-" class="orange" onclick="document.calculadora.ans.value+='-'">
+</div><div>
+            <input type="button" value="1" class="gray" onclick="document.calculadora.ans.value+='1'">
+            <input type="button" value="2" class="gray" onclick="document.calculadora.ans.value+='2'">
+            <input type="button" value="3" class="gray" onclick="document.calculadora.ans.value+='3'">
+            <input type="button" value="*" class="orange" onclick="document.calculadora.ans.value+='*'">
+</div><div>
+            <input type="button" value="0" class="gray" onclick="document.calculadora.ans.value+='0'">
+            <input type="button" value="c" class="gray" > 
+            <input type="button" value="=" class="orange" onclick="document.calculadora.ans.value=eval(document.calculadora.ans.value)">
+            <input type="button" value="/" class="orange" onclick="document.calculadora.ans.value+='/'">
+</div>
+        </form>
+    </div>
+    <img src="https://p4.wallpaperbetter.com/wallpaper/330/785/205/equations-math-wallpaper-preview.jpg" alt="">
+</body>
+
+</html>
